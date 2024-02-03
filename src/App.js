@@ -1,25 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'; //import React object from 'react' library
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//below 'App' variable is whats called a react component
+const App = () => {
+    return (
+        <h1>App</h1> //this is jsx (javascript xml, its a combination of JS and markup language)
+    );
 }
 
-export default App;
+export default App;// export this script so that it can be called from other scripts
