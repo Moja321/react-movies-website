@@ -9,7 +9,7 @@ import DarkMode from './DarkMode/DarkMode';
 
 //OMDB api key: ec451e8a
 
-const API_URL = 'http://www.omdbapi.com?apikey=' + process.env.REACT_APP_API_KEY;
+const API_URL = 'https://www.omdbapi.com?apikey=' + process.env.REACT_APP_API_KEY;
 
 const movie1 = {
     "Title": "Batman Begins",
